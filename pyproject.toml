@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "pythonproject"
+version = "0.1.0"
+description = ""
+authors = ["max.nizhnikov <max.nizhnikov@duallab.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+mysql = "^0.0.3"
+mysql-connector-python = "^8.0.32"
+pandas = "^1.5.3"
+aiogram = "^2.25.1"
+tweepy = "^4.13.0"
+selenium = "^4.8.2"
+pyyaml = "^6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
